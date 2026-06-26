@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Feedback | Spider-Man: BRAND NEW DAY</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+  <nav>
+    <div class="nav__logo">
+      <a href="index.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg" alt="Marvel Logo">
+      </a>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li class="link"><a href="index.html#home">Home</a></li>
+      <li class="link"><a href="index.html#about-section">About Film</a></li>
+      <li class="link"><a href="cast.html">Cast</a></li> 
+      <li class="link"><a href="index.html#media-section">Trailers</a></li>
+      <li class="link"><a href="index.html#contact-section" class="active">Contact Us</a></li>
+    </ul>
+    <div class="nav__menu__btn" id="menu-btn">
+      <i class="ri-menu-line"></i>
+    </div>
+  </nav>
+
+  <main class="container contact-page__container">
+    
+    <header class="contact__header">
+      <div class="contact__tagline">Contact Us</div>
+      <h1 class="contact__title">Let's Build the Future of Your Fandom Together</h1>
+      <p class="contact__subtitle">
+        Reach out to discuss customized ticketing solutions, corporate premium partnerships, or upcoming promotional learning programs tailored to your organization's needs.
+      </p>
+    </header>
+
+    <div class="contact__layout-grid">
+      
+      <form class="feedback__form-card" action="#" method="POST">
+        <div class="form__grid">
+          
+          <div class="form__group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" placeholder="Your full name" required>
+          </div>
+
+          <div class="form__group">
+            <label for="orgName">Organization Name</label>
+            <input type="text" id="orgName" placeholder="Company / Institution">
+          </div>
+
+          <div class="form__group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="email@company.com" required>
+          </div>
+
+          <div class="form__group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX">
+          </div>
+
+          <div class="form__group">
+            <label for="industry">Industry</label>
+            <select id="industry" required>
+              <option value="" disabled selected>Select Industry</option>
+              <option value="entertainment">Entertainment & Media</option>
+              <option value="marketing">Marketing Partnerships</option>
+              <option value="education">Educational Outreach</option>
+              <option value="retail">Retail & Merchandise</option>
+            </select>
+          </div>
+
+          <div class="form__group">
+            <label for="inquiryType">Inquiry Type</label>
+            <select id="inquiryType" required>
+              <option value="" disabled selected>Select Type</option>
+              <option value="press">Press & Media Access</option>
+              <option value="screening">Group Booking / VIP Screening</option>
+              <option value="support">General Support & Feedback</option>
+            </select>
+          </div>
+
+          <div class="form__group full-width">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell us about your training needs..." required></textarea>
+          </div>
+
+        </div>
+        <button type="submit" class="form__submit-btn">Send Inquiry</button>
+      </form>
+
+      <aside class="contact__sidebar">
+        
+        <div class="sidebar__card accent-card">
+          <h3 class="sidebar__card-title">
+            <i class="ri-shield-check-line"></i> Trusted Partner
+          </h3>
+          <p class="sidebar__card-text">
+            Trusted by marvel, sony entertainment.
+          </p>
+        </div>
+
+        <div class="sidebar__card">
+          <ul class="info-list">
+            <li class="info-item">
+              <i class="ri-phone-line"></i>
+              <div class="info-details">
+                <h4>Phone</h4>
+                <p>+91 12345 67890</p>
+              </div>
+            </li>
+            <li class="info-item">
+              <i class="ri-mail-line"></i>
+              <div class="info-details">
+                <h4>Email</h4>
+                <p>info@spidermanmovie.com</p>
+              </div>
+            </li>
+            <li class="info-item">
+              <i class="ri-map-pin-line"></i>
+              <div class="info-details">
+                <h4>Office Address</h4>
+                <p>Kathmandu, Nepal</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Replaced with Embedded Google Map -->
+        <div class="map-placeholder-card" style="overflow: hidden; border-radius: 8px;">
+          <iframe 
+            src="https://maps.google.com/maps?q=QFX%20Cinemas,%20Civil%20Mall,%20Kathmandu&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+            width="100%" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <footer class="site__footer">
+    <div class="container footer__container">
+      
+      <div class="footer__grid">
+        
+        <div class="footer__col">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg" alt="Marvel Logo" class="footer__logo">
+          <p class="footer__text">
+            With great power comes great responsibility. Experience the next chapter of the Spider-Man saga exclusively in IMAX and theatres worldwide.
+          </p>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__heading">Explore</h4>
+          <ul class="footer__links">
+           <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about-section">About Film</a></li>
+            <li><a href="tickets.html">Ticketing Info</a></li>
+            <li><a href="cast.html">Cast</a></li>
+            <li><a href="contact.html">contact-section</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__heading">Legal</h4>
+          <ul class="footer__links">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 MARVEL / SONY PICTURES. ALL RIGHTS RESERVED.</p>
+        <p class="footer__disclaimer">This is a promotional fan portal layout mockup.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
